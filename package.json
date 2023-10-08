@@ -1,0 +1,27 @@
+{
+  "name": "mmm",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "homepage": "http://hostname007.github.io/mmm",
+  "scripts": {
+    "start": "vue-script start",
+    "build": "vue-script build",
+    "analyzer": "vue-script analyzer",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-script": "^1.0.0"
+  },
+  "devDependencies": {
+    "@laconic/vue-script": "^1.0.0"
+  },
+  "author": "HP",
+  "license": "MIT",
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "not dead"
+  ]
+}
